@@ -1,0 +1,30 @@
+{
+  "name": "demo-mocha-es5",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test-ci": "mocha test.start.js *.spec.js --require test.helper.js",
+    "test": "npm run test-ci -- --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cosemansp/demo-mocha-es5.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cosemansp/demo-mocha-es5/issues"
+  },
+  "homepage": "https://github.com/cosemansp/demo-mocha-es5#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-as-promised": "^5.2.0",
+    "chai-things": "^0.2.0",
+    "mocha": "^2.4.5",
+    "sinon": "^1.17.3",
+    "sinon-chai": "^2.8.0",
+    "supertest": "^1.2.0",
+    "supertest-as-promised": "^2.0.2"
+  }
+}
